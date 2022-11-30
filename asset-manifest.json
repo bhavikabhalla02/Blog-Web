@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.js": "/bhavikabhalla02.github.io/Blog-Web/static/js/main.01c4e3d2.js",
-    "static/media/bg1.jpg": "/bhavikabhalla02.github.io/Blog-Web/static/media/bg1.a799547062b154978e6c.jpg",
-    "static/media/bg2.jpg": "/bhavikabhalla02.github.io/Blog-Web/static/media/bg2.cd3e125aaebb403f5069.jpg",
-    "static/media/bg11.jpg": "/bhavikabhalla02.github.io/Blog-Web/static/media/bg11.3887db3ba88c132b5b6c.jpg",
-    "static/media/bg4.avif": "/bhavikabhalla02.github.io/Blog-Web/static/media/bg4.864fec0f035bcfc4e653.avif",
-    "static/media/bg12.jpg": "/bhavikabhalla02.github.io/Blog-Web/static/media/bg12.3cf7200d68fb1c870332.jpg",
-    "static/media/bg10.webp": "/bhavikabhalla02.github.io/Blog-Web/static/media/bg10.c6a3ac290c9ef1b7cae1.webp",
-    "static/media/bg6.jpg": "/bhavikabhalla02.github.io/Blog-Web/static/media/bg6.d548bd6ba9da088b97d1.jpg",
-    "static/media/bg5.jpg": "/bhavikabhalla02.github.io/Blog-Web/static/media/bg5.00fbfefa2eab8d954437.jpg",
-    "static/media/bg8.jpg": "/bhavikabhalla02.github.io/Blog-Web/static/media/bg8.4dd0690df3f1fa5555f2.jpg",
-    "static/media/bg7.jpg": "/bhavikabhalla02.github.io/Blog-Web/static/media/bg7.e0b1318fa367e7051555.jpg",
-    "static/media/bg3.jpg": "/bhavikabhalla02.github.io/Blog-Web/static/media/bg3.1ea532654c7ced333e12.jpg",
-    "index.html": "/bhavikabhalla02.github.io/Blog-Web/index.html",
-    "main.01c4e3d2.js.map": "/bhavikabhalla02.github.io/Blog-Web/static/js/main.01c4e3d2.js.map"
+    "main.js": "/Blog-Web/static/js/main.9f2b8a50.js",
+    "static/media/bg1.jpg": "/Blog-Web/static/media/bg1.a799547062b154978e6c.jpg",
+    "static/media/bg2.jpg": "/Blog-Web/static/media/bg2.cd3e125aaebb403f5069.jpg",
+    "static/media/bg11.jpg": "/Blog-Web/static/media/bg11.3887db3ba88c132b5b6c.jpg",
+    "static/media/bg4.avif": "/Blog-Web/static/media/bg4.864fec0f035bcfc4e653.avif",
+    "static/media/bg12.jpg": "/Blog-Web/static/media/bg12.3cf7200d68fb1c870332.jpg",
+    "static/media/bg10.webp": "/Blog-Web/static/media/bg10.c6a3ac290c9ef1b7cae1.webp",
+    "static/media/bg6.jpg": "/Blog-Web/static/media/bg6.d548bd6ba9da088b97d1.jpg",
+    "static/media/bg5.jpg": "/Blog-Web/static/media/bg5.00fbfefa2eab8d954437.jpg",
+    "static/media/bg8.jpg": "/Blog-Web/static/media/bg8.4dd0690df3f1fa5555f2.jpg",
+    "static/media/bg7.jpg": "/Blog-Web/static/media/bg7.e0b1318fa367e7051555.jpg",
+    "static/media/bg3.jpg": "/Blog-Web/static/media/bg3.1ea532654c7ced333e12.jpg",
+    "index.html": "/Blog-Web/index.html",
+    "main.9f2b8a50.js.map": "/Blog-Web/static/js/main.9f2b8a50.js.map"
   },
   "entrypoints": [
-    "static/js/main.01c4e3d2.js"
+    "static/js/main.9f2b8a50.js"
   ]
 }
