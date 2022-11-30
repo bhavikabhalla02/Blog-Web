@@ -1,0 +1,324 @@
+#logo{
+    /* text-align: center; */
+    margin-top: 3%;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+}
+#logo-second{
+    font-size: xxx-large;
+    font-weight: bold;
+}
+#logo-first{
+    font-size: x-large;
+    transform: rotate(-90deg);
+    margin-right: -15px;
+}
+#navItem{
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: sans-serif;
+}
+#navItem ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#navItem ul li{
+    cursor: pointer;
+}
+#menuItem ul li{
+    cursor: pointer;
+}
+
+#menuIcon{
+    visibility: hidden;
+}
+#menuItem{
+    visibility: hidden;
+}
+
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+#img-sec{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#firstImg img{
+    height: 60vh;
+    width: 55vw;
+    border-radius: 10px;
+    cursor:zoom-out;
+    opacity: 0.9;
+}
+
+#firstImg{
+    position:relative;
+}
+
+#secondImg{
+    margin-left: 2%;
+}
+
+#secondImg img{
+    height:30vh;
+    width: 35vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#card-sec{
+    margin: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 25vw;
+}
+
+.card img{
+    height: 30vh;
+    width: 25vw;
+    border-radius: 10px;
+}
+.card-heading{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.card-content{
+    font-family: sans-serif;
+    margin-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#article-sec-part{
+    display: flex;
+}
+
+.article-img{
+    height: 25vh;
+    width: 15vw;
+}
+#sec1{
+    margin: 3%;
+    width: 60vw;
+}
+.ArticleBox{
+    display: flex;
+    justify-content: space-between;
+}
+.article-heading{
+    margin-left: 4%;
+    font-size: xx-large;
+   font-family: sans-serif;
+   width: 25vw;
+   margin-bottom: 2%;
+}
+.article-content{
+   margin-left: 4%;
+   font-family: sans-serif;
+}
+#advs{
+    width: 20vw;
+    margin-top: 15%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: black solid 2px;
+    height: 80vh;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+#sec1-gallary img{
+    height: 60vh;
+    width: 60vw;
+    margin-top: 8%;
+    margin-left: 3%;
+    border-radius: 5px;
+}
+#post-img{
+    width:21vw;
+    height:30vh;
+}
+.postHeading{
+    font-family:sans-serif;
+    width:20vw;
+}
+.postImg{
+    height:10vh;
+    width:7vw;
+}
+
+#latest-story{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+#storycard{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+.card{
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 4%;
+}
+.cardHeading{
+    font-size: x-large;
+   font-weight: bold;
+   margin-bottom: 2%;
+}
+.cardContent{
+    font-size: medium;
+    font-family: sans-serif;
+    color: gray;
+    margin-bottom: 8%;
+}
+#visibleBorder{
+    border-left: solid gray 2px;
+    border-right: solid gray 2px;
+}
+#bollywood-page{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+#bollywood-sec{
+    display: flex;
+    justify-content: space-between;
+}
+#bollywood-sec1{
+    margin-left: 2%;
+    width: 60vw;
+}
+#post-sec{
+    margin-top: -26%;
+}
+.active{
+    color:red;
+}
+.home-adv{
+    margin-bottom: 33%;
+}
+
+@media screen and (max-width:610px){
+    #navItem{
+        visibility: hidden;
+        display: none;
+    }
+    #logo{
+        margin-top: 1%;
+        padding-bottom: 1%;
+        justify-content: flex-start;
+        box-shadow: 0px 2px 0px 0px whitesmoke;
+    }
+    #logo-second{
+        font-size: x-large;
+        font-weight: bold;
+    }
+    #logo-first{
+        font-size: medium;
+        margin-right: -5px;
+    }
+    #menuIcon{
+        visibility: visible;
+        position: absolute;
+        top: 3%;
+        right: 4%;
+        cursor: pointer;
+    }
+    #img-sec{
+        flex-wrap: wrap;
+        height: 60vh;
+        overflow: hidden;
+    }
+    #firstImg img{
+        width: 85vw;
+    }
+    #card-sec{
+        flex-wrap: wrap;
+        margin-left: 10%;
+    }
+    .card{
+        width: 60vw;
+        margin-bottom: 5%;
+    }
+    .card img{
+         width: 60vw;
+    }
+    #article-sec-part{
+        flex-wrap: wrap;
+    }
+    #advs,#sec1-gallary{
+        visibility: hidden;
+        display: none;
+    }
+    #sec1{
+        width: 80vw;
+        margin-left: 5%;
+    }
+    .article-img{
+        margin-left: 4%;
+        width: 30vw;
+        height: 15vh;
+    }
+    .article-heading{
+        font-size: large;
+    font-family: sans-serif;
+    width: 51vw;
+    margin-bottom: 2%;
+    font-weight: bold;
+    }
+    .article-content{
+        font-size: x-small;
+    }
+    #post-sec{
+        margin-left: 5%;
+        margin-top: 0%;
+    }
+    #post-img{
+        width: 70vw;
+    }
+    .postHeading{
+        width: 30vw;
+    }
+    .postImg{
+        width: 12vw;
+        height: 12vh;
+    }
+    #storycard{
+       flex-wrap: wrap;
+    }
+    .card{
+        width: 73vw;
+    }
+    #visibleBorder{
+        border-left: none;
+        border-right: none;
+    }
+    #bollywood-sec{
+        flex-wrap: wrap;
+    }
+    #bollywood-sec2{
+        margin-top: 1%;
+    }
+}
